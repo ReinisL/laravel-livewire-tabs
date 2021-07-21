@@ -2,9 +2,9 @@
 
 namespace Reinisl\LaravelLivewireTabs;
 
+use Reinisl\LaravelLivewireTabs\Commands\LaravelLivewireTabsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Reinisl\LaravelLivewireTabs\Commands\LaravelLivewireTabsCommand;
 
 class LaravelLivewireTabsServiceProvider extends PackageServiceProvider
 {
