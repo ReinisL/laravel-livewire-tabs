@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Reinisl\LaravelLivewireTabs\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelLivewireTabsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-livewire-tabs';
 
     public $description = 'My command';
 

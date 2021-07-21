@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "reinisl/laravel-livewire-tabs",
+    "description": "Laravel Livewire Tabs",
     "keywords": [
-        ":vendor_name",
+        "ReinisL",
         "laravel",
-        "package_slug"
+        "laravel-livewire-tabs"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/reinisl/laravel-livewire-tabs",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Reinis Lucis",
+            "email": "reinis@onthemapmarketing.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Reinisl\\LaravelLivewireTabs\\": "src",
+            "Reinisl\\LaravelLivewireTabs\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Reinisl\\LaravelLivewireTabs\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Reinisl\\LaravelLivewireTabs\\LaravelLivewireTabsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelLivewireTabs": "Reinisl\\LaravelLivewireTabs\\LaravelLivewireTabsFacade"
             }
         }
     },
